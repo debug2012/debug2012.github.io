@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="hexo next," />
 
 
 
@@ -87,19 +87,34 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="配置github
+注册github，假设账号为demo
+创建博客项目，demo.github.io，注意demo是账号名，这里一定要跟账号保持一致，否则不能访问到项目 
+配置ssh-key，不用每次deploy的时候都要输入账号密码1ssh-keygen -t rsa -C &amp;apos;你github的邮箱地址&amp;apos;
+
+
+拷贝公钥文件~/.ssh/id_rsa.pub到https://git">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://debug2012.github.io/2017/03/21/hello-world/index.html">
+<meta property="og:title" content="使用 github pages，hexo，next搭建博客系统">
+<meta property="og:url" content="http://debug2012.github.io/2017/03/21/hexo-next/index.html">
 <meta property="og:site_name" content="TerryWong">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2017-03-21T08:14:44.427Z">
+<meta property="og:description" content="配置github
+注册github，假设账号为demo
+创建博客项目，demo.github.io，注意demo是账号名，这里一定要跟账号保持一致，否则不能访问到项目 
+配置ssh-key，不用每次deploy的时候都要输入账号密码1ssh-keygen -t rsa -C &amp;apos;你github的邮箱地址&amp;apos;
+
+
+拷贝公钥文件~/.ssh/id_rsa.pub到https://git">
+<meta property="og:updated_time" content="2017-03-22T14:01:18.281Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="使用 github pages，hexo，next搭建博客系统">
+<meta name="twitter:description" content="配置github
+注册github，假设账号为demo
+创建博客项目，demo.github.io，注意demo是账号名，这里一定要跟账号保持一致，否则不能访问到项目 
+配置ssh-key，不用每次deploy的时候都要输入账号密码1ssh-keygen -t rsa -C &amp;apos;你github的邮箱地址&amp;apos;
+
+
+拷贝公钥文件~/.ssh/id_rsa.pub到https://git">
 
 
 
@@ -127,13 +142,13 @@ Quick">
 
 
 
-  <link rel="canonical" href="http://debug2012.github.io/2017/03/21/hello-world/"/>
+  <link rel="canonical" href="http://debug2012.github.io/2017/03/21/hexo-next/"/>
 
 
 
 
 
-  <title> Hello World | TerryWong </title>
+  <title> 使用 github pages，hexo，next搭建博客系统 | TerryWong </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -252,7 +267,7 @@ Quick">
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://debug2012.github.io/2017/03/21/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://debug2012.github.io/2017/03/21/hexo-next/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="TerryWong">
@@ -273,7 +288,7 @@ Quick">
             
             
               
-                Hello World
+                使用 github pages，hexo，next搭建博客系统
               
             
           </h1>
@@ -288,7 +303,7 @@ Quick">
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-21T16:14:44+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-21T23:01:35+08:00">
                 2017-03-21
               </time>
             
@@ -307,8 +322,8 @@ Quick">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/03/21/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/03/21/hello-world/" itemprop="commentCount"></span>
+                <a href="/2017/03/21/hexo-next/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/03/21/hexo-next/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -334,15 +349,34 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+        <h2 id="配置github"><a href="#配置github" class="headerlink" title="配置github"></a>配置github</h2><ul>
+<li>注册github，假设账号为demo</li>
+<li>创建博客项目，demo.github.io，注意demo是账号名，这里一定要跟账号保持一致，否则不能访问到项目 </li>
+<li>配置ssh-key，不用每次deploy的时候都要输入账号密码<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C &apos;你github的邮箱地址&apos;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>拷贝公钥文件~/.ssh/id_rsa.pub到<a href="https://github.com/settings/keys" target="_blank" rel="external">https://github.com/settings/keys</a></p>
+<h2 id="全局安装hexo"><a href="#全局安装hexo" class="headerlink" title="全局安装hexo"></a>全局安装hexo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo -g</div></pre></td></tr></table></figure>
+<h3 id="初始化博客项目"><a href="#初始化博客项目" class="headerlink" title="初始化博客项目"></a>初始化博客项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init myblog</div></pre></td></tr></table></figure>
+<h2 id="安装next主题"><a href="#安装next主题" class="headerlink" title="安装next主题"></a>安装next主题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd myblog</div><div class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
+<h3 id="配置next主题"><a href="#配置next主题" class="headerlink" title="配置next主题"></a>配置next主题</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd themes/next</div><div class="line">vi _config.yaml</div></pre></td></tr></table></figure>
+<p>配置scheme,最好挨个设置一下看看效果<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">#scheme: Muse #默认</div><div class="line">scheme: Mist</div><div class="line">#scheme: Pisces</div></pre></td></tr></table></figure></p>
+<p>使用next 自带的disqus配置来开启评论功能<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">disqus_shortname: debug2012</div></pre></td></tr></table></figure></p>
+<p>debug2012是笔者在<a href="https://www.disqus.com" target="_blank" rel="external">disqus</a>上注册一个shortname</p>
+<p>更多next主题的配置，可以参考 <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">http://theme-next.iissnan.com/getting-started.html</a></p>
+<h3 id="修改myblog配置"><a href="#修改myblog配置" class="headerlink" title="修改myblog配置"></a>修改myblog配置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">language: zh-Hans #中文</div><div class="line">timezone: Asia/Shanghai</div><div class="line">theme: next</div><div class="line"></div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  #复制上面创建的项目的ssh地址</div><div class="line">  repo: git@github.com:demo/demo.github.io.git</div><div class="line">  branch: master #提交master分支上</div></pre></td></tr></table></figure>
+<blockquote>
+<h2 id="使用hexo"><a href="#使用hexo" class="headerlink" title="使用hexo"></a>使用hexo</h2></blockquote>
+<h3 id="新建一篇blog"><a href="#新建一篇blog" class="headerlink" title="新建一篇blog"></a>新建一篇blog</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;hello world&quot;</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<h3 id="启动本地server预览"><a href="#启动本地server预览" class="headerlink" title="启动本地server预览"></a>启动本地server预览</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo server</div><div class="line">或者</div><div class="line">hexo s # hexo s --debug debug模式，修改博客内容可以重新加载</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g # 或 hexo generate</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<h2 id="发布hexo"><a href="#发布hexo" class="headerlink" title="发布hexo"></a>发布hexo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+<p>如果出现’ERROR Deployer not found: git’错误提示，需要安装deploy模块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deploy</div></pre></td></tr></table></figure></p>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="访问博客"><a href="#访问博客" class="headerlink" title="访问博客"></a>访问博客</h2><p><a href="https://demo.github.io" target="_blank" rel="external">https://demo.github.io</a></p>
 
       
     </div>
@@ -370,6 +404,12 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/hexo-next/" rel="tag"># hexo next</a>
+          
+        </div>
+      
 
       
         
@@ -385,8 +425,8 @@ Quick">
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/03/21/just-a-demo/" rel="prev" title="just a demo">
-                just a demo <i class="fa fa-chevron-right"></i>
+              <a href="/2017/04/14/export-echarts-image/" rel="prev" title="导出echarts中的图片">
+                导出echarts中的图片 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -479,7 +519,7 @@ Quick">
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -514,7 +554,7 @@ Quick">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#配置github"><span class="nav-number">1.</span> <span class="nav-text">配置github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#全局安装hexo"><span class="nav-number">2.</span> <span class="nav-text">全局安装hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化博客项目"><span class="nav-number">2.1.</span> <span class="nav-text">初始化博客项目</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装next主题"><span class="nav-number">3.</span> <span class="nav-text">安装next主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#配置next主题"><span class="nav-number">3.1.</span> <span class="nav-text">配置next主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改myblog配置"><span class="nav-number">3.2.</span> <span class="nav-text">修改myblog配置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用hexo"><span class="nav-number">4.</span> <span class="nav-text">使用hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#新建一篇blog"><span class="nav-number">4.1.</span> <span class="nav-text">新建一篇blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#启动本地server预览"><span class="nav-number">4.2.</span> <span class="nav-text">启动本地server预览</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成静态文件"><span class="nav-number">4.3.</span> <span class="nav-text">生成静态文件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#发布hexo"><span class="nav-number">5.</span> <span class="nav-text">发布hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#访问博客"><span class="nav-number">6.</span> <span class="nav-text">访问博客</span></a></li></ol></div>
             
 
           </div>
@@ -645,9 +685,9 @@ Quick">
 
     <script type="text/javascript">
       var disqus_shortname = 'debug2012';
-      var disqus_identifier = '2017/03/21/hello-world/';
+      var disqus_identifier = '2017/03/21/hexo-next/';
 
-      var disqus_title = "Hello World";
+      var disqus_title = "使用 github pages，hexo，next搭建博客系统";
 
 
       function run_disqus_script(disqus_script) {
